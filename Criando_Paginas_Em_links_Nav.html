@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="./3.Programação/1.Home/Home.html">Home</a>
+        <a href="./2.Lista Dinamica/Lista Dinamica.html">Lista Dinamica</a>
+        <a href="./1.My_First_WebSite/Lista.html">My First WebSite</a>
+        <a href="./3.Programação/Programação.html">Programação</a>
+        <a href="./4.Xadrez/Inserindo_imagens.html">Xadrez</a>
+        <a href="./6.Livros/Books.html">Livros</a>
+
+        <li class="dropdown">
+        <a href="#">Menu Dropdown</a>
+        <div class="dropdownMenu">
+            <a href="https://www.youtube.com/watch?v=dWbSrh5iVRQ">Gemeltec</a>
+        </div>
+
+        <li class="dropdown">
+            <a href="#">Links</a>
+            <div class="dropdownMenu">
+                <a href="https://medium.com/@luisa.queiroz.brito/manipula%C3%A7%C3%A3o-de-imagens-com-css-3-6f72a5f5fcf0">Manipular Imangem Css</a>
+
+        </div>
+    </nav>
+       
+<div>
+
+    <button id="Escuro" onclick="ChangeToDark()">Escuro</button>
+    <button id="Claro" onclick="ChangeToClear()">Claro</button>
+
+    <div id="divBtn">
+    <button id="btn" onclick="takeOn()">Change Tag Teste</button>
+   
+</div>
+</div>
+<p id="teste">Implementação</p>
+<button id="lim" onclick="limpar()">Limpar</button>
+
+<br><br><br>
+<script>
+    function takeOn(){
+        // console.log("funcionou");       
+        const select = document.getElementById("teste");
+        console.log(select);
+        select.style.color = "white";
+        select.style.border = "2px solid black";
+        select.style.width = "500px";
+        select.style.borderRadius = "12px";
+        select.style.textAlign = "center";
+        select.style.backgroundColor = "purple";  
+        select.style.fontSize = "35px"; 
+        // select.style.maskImage = "teste" ;
+    };
+    
+    function limpar(){
+    
+        var limpe = document.getElementById("teste");
+        limpe.style = "#teste";
+        
+        
+
+    
+}
+
+</script>
+
+<script>
+    function ChangeToDark(){
+    var changeBackground = document.querySelector("html");
+    console.log(changeBackground);
+    changeBackground.style.backgroundColor = "black";
+
+    var changeNav = document.querySelector(".nav");
+    console.log(changeNav);
+    // changeNav.style.nav.a.color = "yellow";
+    changeNav.style.backgroundColor = "grey";
+
+    var whiteTeste = document.querySelector("#teste");
+    if(changeBackground.style.backgroundColor = "black"){
+        console.log("O tema está escuro")
+   
+   whiteTeste.style.color = "red";
+    }else{
+        console.log("O Tema não está escuro");
+    };
+    
+  
+
+
+    };
+
+    function ChangeToClear(){
+        var changeBackground = document.querySelector("html");
+        console.log(changeBackground);
+        changeBackground.style = "html";
+        // 
+        var whiteTeste2 = document.querySelector("#teste");
+        if(changeBackground.style.backgroundColor != "black"){
+            whiteTeste2.style.color = "black";
+        }
+
+
+        var changeNav = document.querySelector(".nav");
+   
+    // changeNav.style.nav.a.color = "yellow";    
+    changeNav.style.backgroundColor = "black";
+
+    }
+
+    
+</script>
+
+</body>
+</html>
