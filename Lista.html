@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 13/09/2024</title>
+    <link rel="stylesheet" href="./styleFromProject.css">
+  
+</head>
+<body>
+ 
+    <div id="cab">
+    <div>
+        
+        <h1 id="website-title">StarAntares Technology</h1>
+       
+        <h3 id="menu2">Menu de Opões</h3>
+
+
+        <!--MODO ESCURO-->
+        <button id="escuro" onclick="change()">DarkMod</button>
+        <br><br>   
+        
+        <!--Tentnado Inserir uma troca de imagem no funco-->
+        <button id="claro" onclick="release()">Release DarkMod</button>
+          
+       <!-- <h3 id="menu">Menu</h3> -->
+        <div id="Menu-drop">
+        <!-- <h3 id="dropdown">Menu Dropdown</h3> -->
+        <nav>
+            <ul class="teste">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Sobre</a>
+                </li>
+                <li class="dropdown-learning">
+                    <a href="">Serviços</a>
+
+                    <div class="dropdown-menu">
+                        <a href="http://www.google.com">Serviços 1 - Pagina do google</a>
+                        <a href="#">Serviços 2</a>
+                        <a href="">Serviços 3</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">Contato</a>
+                </li>
+               
+            </ul>
+            
+        </nav>
+        </div>
+        
+        
+    </div>
+    
+    <div id="first-div">
+        <img src="./img/Phenix01.jpeg" alt="Imagem Fenix">
+    </div>
+    
+
+</div>
+ <div id="align">
+
+    <h1 id="first-title">Lista de Linguagens de Programação</h1>
+   
+   
+
+    <div id="second-div">
+        <p id="p1">Html</p>
+        <p id="p2">Css</p>
+        <p id="p3">Javascript</p>
+        <p id="p4">C++</p>
+        <p id="p5">Php</p>
+        <p id="p6">Sql</p>
+        <p id="p7">Jquery</p>
+        <p id="p8">Vue Js</p> 
+          
+    </div>
+    
+    <div>
+        <p id="p9">+</p>  
+    </div>
+
+    <a  href='https://www.freecodecamp.org/'><button>Link para o freeCodeCamp</button></a>
+
+    <div id="add-list">
+        <h3>Outras Linguagens</h3>
+        <ul id="st">
+            <li>C#</li>
+            <li>Java</li>
+            <li>Cobol</li>
+            <li>Assembly</li>
+            
+        </ul>
+    </div>
+    <div>
+        <button id="btn-evento">Botao</button>
+    </div>
+    <section>
+        <div id="formulario-h3">
+            <h3>Formulario</h3>
+        </div>
+        <div><form action="gravar.php" method="GET"></form>
+            <p> Escolaridade 
+            
+                <select name="Escolaridade">
+                    <option value="em">Ensino Médio</option>
+                    <option value="nt">Nível Técnico</option>
+                    <option value="ns">Nível Superior</option>
+                </select>
+            </p>
+            <input type="radio" name="Cargo" Value="1" checked /> Gerência
+            <input type="radio" name="Cargo" Value="2"/> Financeiro   
+            <input type="radio" name="Cargo" Value="3"/> Recepção
+            <input type="radio" name="Cargo" Value="4"/> Administração
+            </div>
+            <div>
+                
+            </div>
+           
+
+            <br/>
+
+            <input type="checkbox" name="area1" value="com" />Computação
+            <input type="checkbox" name="area2" value="eng" />Engenharia
+            <input type="checkbox" name="area3" value="bio" />Biologia
+            <input type="checkbox" name="area4" value="bpsi" />psicologia
+
+            <input type="reset" value="Limpar" />
+          
+            <p>Observações:<textarea name="obs"
+            cols=20" rows="5"></textarea></p>
+
+            <form action="http://google.com">
+                <input type="submit" value="Ir para o Google" />
+            </form>
+         
+        </div>
+
+    </section>
+    <section id="segunda-section">
+        <div>
+            <h3>Formulario utilizando as tags label, fieldseat e legend</h3>
+        </div>
+
+        <label>Escolaridade
+            <select name="Escolaridade">
+                <option value="em">Ensino Médio </option>
+                <option value="nt">Nível Técnico </option>
+                <option value="em">Nivel Superior </option>
+
+            </select>
+        </label>
+        <fieldset>
+        <legend>Dados pessoais</legend>
+            <label>Nome: <input type="text" name="nome" /></label><br /> 
+            <br />
+            <label>Idade : <input type="text" name="nome" /></label><br/>
+        </fieldset> 
+        
+        <fieldset>
+        <legend>Dados Profissionais</legend>
+        <br>
+            <label> Escolaridade : 
+                <select name="Escolaridade">
+                    <option value="em"> Ensino Médio </option>                    
+                    <option value="ns"> Nível Técnico </option>
+                    <option value="nt"> Nível Superior </option>
+                </select>
+            </label> 
+            <br>
+            <br>
+        
+
+            <label> Área de atuação
+                <input type="radio" name="cargo" value="1" checked> Gerência
+                <input type="radio" name="cargo" value="2" checked> Financeiro
+                <input type="radio" name="cargo" value="3" checked> Recepção
+            </label>
+            
+        </fieldset>
+
+
+
+
+
+    </section>
+</div>
+
+<footer>
+
+    
+    <div id="social-links">
+        
+        <a href="https://github.com/nandocrowler" target="_blank">
+            <ion-icon class="icone" name="Logo-Github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/luizsantos2558/" target="_blank">
+            <ion-icon class="icone" name="Logo-Instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.youtube.com/maykbrito" target="_blank">
+            <ion-icon class="icone" name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/luiz-fernando-viana-5588b179/" target="_blank">
+            <ion-icon class="icone" name="Logo-Linkedin"></ion-icon>
+        </a>
+
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <ion-icon class="icone-w" name="logo-whatsapp"></ion-icon>
+        </a>
+
+        <a href="#">
+            <ion-icon class="icone" name="logo-skype"></ion-icon>
+        </a>    
+        
+       
+    </div>
+</footer>
+
+<script>
+    
+</script>
+
+
+ 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./projeto.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
